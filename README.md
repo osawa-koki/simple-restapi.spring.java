@@ -13,3 +13,9 @@ RESTfulAPIサーバデモ。
 
 APIをテストとかするのに役立つ。  
 <https://www.postman.com/>  
+
+### spring.pleiades.io
+
+公式ドキュメントっぽい。  
+知らんけど、、、  
+<https://spring.pleiades.io/guides/gs/rest-service/>  
