@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.CrossOrigin;
 
 @RestController
 public class DemoApplication {
@@ -53,5 +54,12 @@ public class DemoApplication {
     return String.format("Are You %s of Delete???", name);
   }
 
+  // CORS設定
+
+  @CrossOrigin(origins = "http://helloworld:8080")
+  @GetMapping("/cors")
+  public String cors_get() {
+    return "CORS OK???";
+  }
 
 }
