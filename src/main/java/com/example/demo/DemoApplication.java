@@ -12,6 +12,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
 
+  // ==================== //
+  // HTTP動詞のマッピング基礎 //
+  // ==================== //
+
   @GetMapping("/hello")
   public String hello_get() {
     return "Hello Get!!!";
