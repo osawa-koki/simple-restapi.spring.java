@@ -33,5 +33,25 @@ public class DemoApplication {
     return "Hello Delete!!!";
   }
 
+  // パラメタの取得
+  @GetMapping("/areyou")
+  public String areyou_get(@RequestParam(value = "name", defaultValue = "Osawa") String name) {
+    return String.format("Are You %s of Get???", name);
+  }
+  @PostMapping("/areyou")
+  public String areyou_post(@RequestParam(value = "name", defaultValue = "Osawa") String name) {
+    return String.format("Are You %s of Post???", name);
+  }
+
+  @PutMapping("/areyou")
+  public String areyou_put(@RequestParam(value = "name", defaultValue = "Osawa") String name) {
+    return String.format("Are You %s of Put???", name);
+  }
+
+  @DeleteMapping("/areyou")
+  public String areyou_delete(@RequestParam(value = "name", defaultValue = "Osawa") String name) {
+    return String.format("Are You %s of Delete???", name);
+  }
+
 
 }
