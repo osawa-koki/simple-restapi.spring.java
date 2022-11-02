@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
 public class DemoApplication {
@@ -59,7 +60,14 @@ public class DemoApplication {
   @CrossOrigin(origins = "http://helloworld:8080")
   @GetMapping("/cors")
   public String cors_get() {
+
     return "CORS OK???";
+  }
+
+  // JSONパース
+  @PostMapping("/json")
+  public String json_post(@RequestBody SampleData sampleData) {
+    return String.format("Hello %s %s!!!", sampleData.firstName, sampleData.lastName);
   }
 
 }
