@@ -11,6 +11,10 @@ RESTfulAPIサーバデモ。
 
 ![パラメタの取得デモ](/dev/docs/img/simple-parameter_acquisition.gif)  
 
+## JSONパースデモ
+
+![JSONパースデモ](/dev/docs/img/simple-json-parse.gif)  
+
 ## 参考資料・お役立ちツールとか
 
 ### Postman
