@@ -18,6 +18,10 @@ public class DemoApplication {
   // HTTP動詞のマッピング基礎 //
   // ==================== //
 
+  @GetMapping("/")
+  public String index() {
+    return "I am an index!";
+  }
   @GetMapping("/hello")
   public String hello_get() {
     return "Hello Get!!!";
