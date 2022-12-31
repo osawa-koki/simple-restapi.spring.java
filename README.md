@@ -1,17 +1,22 @@
 # simple-restapi.spring.java
 
-RESTfulAPIサーバデモ。  
+JavaによるRESTfulAPIサーバデモプロジェクト。  
 🥺🥺🥺🥺🥺  
 
-## HTTP動詞マッピングデモ
+## 実行方法
+
+普通にEclipseやIntelliJ IDEAで実行すればOK!  
+<http://localhost:80>へアクセス。  
+
+### HTTP動詞マッピングデモ
 
 ![HTTP動詞マッピングデモ](/dev/docs/img/simple-httpverb.gif)  
 
-## パラメタの取得デモ
+### パラメタの取得デモ
 
 ![パラメタの取得デモ](/dev/docs/img/simple-parameter_acquisition.gif)  
 
-## JSONパースデモ
+### JSONパースデモ
 
 ![JSONパースデモ](/dev/docs/img/simple-json-parse.gif)  
 
