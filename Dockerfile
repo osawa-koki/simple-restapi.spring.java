@@ -1,5 +1,5 @@
 FROM openjdk:17
-EXPOSE 80
+EXPOSE 8080
 COPY . /work
 WORKDIR /work
 RUN maven install
