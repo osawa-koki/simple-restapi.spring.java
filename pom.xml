@@ -9,8 +9,8 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
-	<version></version>
+	<artifactId>simple-restapi-spring-java</artifactId>
+	<version>1.0.0</version>
 	<name>simple-restapi-spring-java</name>
 	<description>Demo project for Spring Boot</description>
 	<properties>
