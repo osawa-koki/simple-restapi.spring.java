@@ -1,6 +1,6 @@
 # simple-restapi.spring.java
 
-RESTfulAPIサーバデモ。  
+JavaによるRESTfulAPIサーバデモプロジェクト。  
 🥺🥺🥺🥺🥺  
 
 ## 実行方法
